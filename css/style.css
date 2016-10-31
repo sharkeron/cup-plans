@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Miso Bold";
+
+    src: url(../fonts/miso-bold/miso-bold-webfont.eot) format("embedded-opentype");
+    src: url(../fonts/miso-bold/miso-bold-webfont.ttf) format("truetype"), url(../fonts/miso-bold/miso-bold-webfont.woff) format("woff"), url(../fonts/miso-bold/miso-bold-webfont.woff2) format("woff2"), url(../fonts/miso-bold/miso-bold-webfont.svg) format("svg");
+}
+
+@font-face {
+    font-family: "Miso Regular";
+
+    src: url(../fonts/miso-regular/miso-regular-webfont.eot) format("embedded-opentype");
+    src: url(../fonts/miso-regular/miso-regular-webfont.ttf) format("truetype"), url(../fonts/miso-regular/miso-regular-webfont.woff) format("woff"), url(../fonts/miso-regular/miso-regular-webfont.woff2) format("woff2"), url(../fonts/miso-regular/miso-regular-webfont.svg) format("svg");
+}
+
+@font-face {
+    font-family: "Lato Light";
+
+    src: url(../fonts/lato-light/lato-light-webfont.eot) format("embedded-opentype");
+    src: url(../fonts/lato-light/lato-light-webfont.ttf) format("truetype"), url(../fonts/lato-light/lato-light-webfont.woff) format("woff"), url(../fonts/lato-light/lato-light-webfont.woff2) format("woff2"), url(../fonts/lato-light/lato-light-webfont.svg) format("svg");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+
+    width: 1200px;
+    max-width: 100%;
+    height: 600px;
+    margin: 50px auto;
+    padding: 0 .6% 0 .6%;
+
+    background: #FDDE7E;
+
+    justify-content: space-around;
+    align-items: center;
+    ;
+}
+
+.coffee {
+    width: 30.1%;
+    height: 74%;
+
+    background: #fff;
+}
+
+.coffee-2 {
+    height: 84.1%;
+}
+
+.price {
+    margin-top: 52px;
+
+    text-align: center;
+
+    color: #02995B;
+
+    font-family: "Miso Bold";
+    font-size: 70px;
+}
+
+.cups {
+    width: 37.4%;
+    height: 30%;
+    margin: 0 33%;
+    margin-top: 3%;
+}
+
+.cups img {
+    width: 100%;
+}
+
+.coffee-2 .cups {
+    height: 26%;
+    margin-top: 11%;
+}
+
+.name {
+    margin-top: 15px;
+
+    text-align: center;
+
+    color: #333333;
+
+    font-family: "Miso Regular";
+    font-size: 56px;
+}
+
+.coffee-2 .name {
+    margin-top: 40px;
+}
+
+.description {
+    margin-top: 15px;
+
+    text-align: center;
+
+    color: #333333;
+
+    font-family: "Lato Light";
+    font-size: 20px;
+}
